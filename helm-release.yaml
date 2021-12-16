@@ -7,6 +7,6 @@ spec:
   releaseName: tl500
   timeout: 1200
   chart:
-    git: https://github.com/rht-labs/enablement-framework
-    ref: v3.0.0
+    git: https://github.com/jfilipcz/enablement-framework
+    ref: test-deployment
     path: tooling/charts/tl500 
