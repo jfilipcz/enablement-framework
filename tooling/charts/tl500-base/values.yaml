@@ -68,6 +68,8 @@ operators:
     operatorgroup:
       create: true
 
+logging:
+    namespace: openshift-logging
 
 gitlab:
   namespace: tl500-gitlab
