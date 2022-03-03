@@ -3,7 +3,7 @@ entries:
   tl500-base:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-03T20:05:32.093565949Z"
+    created: "2022-03-03T20:10:00.029290723Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -18,7 +18,7 @@ entries:
       repository: https://redhat-cop.github.io/helm-charts
       version: 0.2.4
     description: A Helm chart for Kubernetes
-    digest: d7411b2db5320df0fcc244e308dd4c46d00779866142a3a2236b829cfdd2a164
+    digest: 996cb209ad5744707a3df724b3bf35549c34aa15a321ddfb9c7178e37332aa09
     maintainers:
     - name: eformat
     - name: tylerauerbeck
@@ -34,9 +34,9 @@ entries:
   tl500-course-content:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-03T20:05:32.094050655Z"
+    created: "2022-03-03T20:10:00.029847837Z"
     description: A Helm chart for Kubernetes
-    digest: 4032b857a24932c928374475a8045348a40f7bd02c3faa2ac0e0a024d1b2e7cd
+    digest: 95d996b52fcc4b55d6d83607c6b5c7f6c4d3f4d8a0592de21b8a820f4315aa1d
     maintainers:
     - name: eformat
     - name: jacobsee
@@ -48,4 +48,4 @@ entries:
     urls:
     - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.0.tgz
     version: v3.1.0
-generated: "2022-03-03T20:05:32.089589702Z"
+generated: "2022-03-03T20:10:00.025908435Z"
