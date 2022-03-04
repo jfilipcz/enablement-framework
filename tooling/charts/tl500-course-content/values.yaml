@@ -4,10 +4,10 @@ prefix: ""
 # Group name in LDAP / IdM (FreeIPA) for attendees 
 group_name: student
 
-namespaces:
-  - name: tl500-workspaces
-  - name: tl500-gitlab
-  - name: tl500-shared
+#namespaces:
+#  - name: tl500-workspaces
+#  - name: tl500-gitlab
+#  - name: tl500-shared
 
 
 logging:
@@ -64,3 +64,8 @@ crw:
 
 userworkloadmonitoring: true
 
+stackrox-chart:
+  enabled: true
+  stackrox:
+    clusterName: tl500
+    namespace: stackrox
