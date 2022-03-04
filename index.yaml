@@ -3,7 +3,37 @@ entries:
   tl500-base:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-03T20:10:00.029290723Z"
+    created: "2022-03-04T18:02:46.234509608Z"
+    dependencies:
+    - condition: sealed-secrets.enabled
+      name: sealed-secrets
+      repository: https://bitnami-labs.github.io/sealed-secrets
+      version: 1.16.1
+    - condition: stackrox.enabled
+      name: stackrox-chart
+      repository: https://redhat-cop.github.io/helm-charts
+      version: 0.0.3
+    - condition: gitops-operator.enabled
+      name: gitops-operator
+      repository: https://redhat-cop.github.io/helm-charts
+      version: 0.2.4
+    description: A Helm chart for Kubernetes
+    digest: 7002e81e8ffdcd60fc1c66290c43716ce189e6537e854c1ba3ebe7838fb4e95e
+    maintainers:
+    - name: eformat
+    - name: tylerauerbeck
+    - name: jacobsee
+    - name: jtudelag
+    - name: ckavili
+    - name: springdo
+    name: tl500-base
+    type: application
+    urls:
+    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.1.tgz
+    version: v3.1.1
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-03-04T18:02:46.231439369Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -34,7 +64,23 @@ entries:
   tl500-course-content:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-03T20:10:00.029847837Z"
+    created: "2022-03-04T18:02:46.235372819Z"
+    description: A Helm chart for Kubernetes
+    digest: 9fad9da65ad72bbb25898b27db5869941da4b749a6dd297cf284c494f92187f1
+    maintainers:
+    - name: eformat
+    - name: jacobsee
+    - name: jtudelag
+    - name: ckavili
+    - name: springdo
+    name: tl500-course-content
+    type: application
+    urls:
+    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.1.tgz
+    version: v3.1.1
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-03-04T18:02:46.234939314Z"
     description: A Helm chart for Kubernetes
     digest: 95d996b52fcc4b55d6d83607c6b5c7f6c4d3f4d8a0592de21b8a820f4315aa1d
     maintainers:
@@ -48,4 +94,4 @@ entries:
     urls:
     - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.0.tgz
     version: v3.1.0
-generated: "2022-03-03T20:10:00.025908435Z"
+generated: "2022-03-04T18:02:46.228794636Z"
