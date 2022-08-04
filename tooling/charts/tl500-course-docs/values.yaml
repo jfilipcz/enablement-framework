@@ -1,0 +1,12 @@
+# Create a helper to create a prefix if one isn't provided? Would help if we moved to shared clusters
+prefix: ""
+
+namespaces:
+  - name: tl500-docs
+
+docs:
+  name: tl500-docs
+  image: quay.io/rht-labs/tl500-tech-exercise:v1.0.0
+  namespace: tl500-docs
+
+
