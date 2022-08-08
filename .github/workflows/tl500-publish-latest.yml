@@ -11,7 +11,7 @@ on:
       - 'tooling/charts/tl500-course-content/**'
       - 'tooling/charts/tl500-base/**'
 jobs:
-  release:
+  publish-latest:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
