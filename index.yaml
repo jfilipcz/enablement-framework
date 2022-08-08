@@ -3,7 +3,7 @@ entries:
   tl500-base:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.189507381Z"
+    created: "2022-08-08T12:35:18.621112831Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -29,11 +29,11 @@ entries:
     name: tl500-base
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.5.tgz
+    - https://rht-labs.com/enablement-framework/tl500-base-v3.1.5.tgz
     version: v3.1.5
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.186636758Z"
+    created: "2022-08-08T12:35:18.617395764Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -59,11 +59,11 @@ entries:
     name: tl500-base
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.4.tgz
+    - https://rht-labs.com/enablement-framework/tl500-base-v3.1.4.tgz
     version: v3.1.4
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.18180042Z"
+    created: "2022-08-08T12:35:18.615178824Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -89,11 +89,11 @@ entries:
     name: tl500-base
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.3.tgz
+    - https://rht-labs.com/enablement-framework/tl500-base-v3.1.3.tgz
     version: v3.1.3
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.178280092Z"
+    created: "2022-08-08T12:35:18.612350473Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -119,11 +119,11 @@ entries:
     name: tl500-base
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.2.tgz
+    - https://rht-labs.com/enablement-framework/tl500-base-v3.1.2.tgz
     version: v3.1.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.175016066Z"
+    created: "2022-08-08T12:35:18.60997093Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -149,11 +149,11 @@ entries:
     name: tl500-base
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.1.tgz
+    - https://rht-labs.com/enablement-framework/tl500-base-v3.1.1.tgz
     version: v3.1.1
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.17169164Z"
+    created: "2022-08-08T12:35:18.607529285Z"
     dependencies:
     - condition: sealed-secrets.enabled
       name: sealed-secrets
@@ -179,12 +179,46 @@ entries:
     name: tl500-base
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-base-v3.1.0.tgz
+    - https://rht-labs.com/enablement-framework/tl500-base-v3.1.0.tgz
     version: v3.1.0
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-08-08T12:35:18.605062541Z"
+    dependencies:
+    - condition: sealed-secrets.enabled
+      name: sealed-secrets
+      repository: https://bitnami-labs.github.io/sealed-secrets
+      version: 2.1.6
+    - condition: stackrox-chart.enabled
+      name: stackrox-chart
+      repository: https://redhat-cop.github.io/helm-charts
+      version: 0.0.6
+    - condition: gitops-operator.enabled
+      name: gitops-operator
+      repository: https://redhat-cop.github.io/helm-charts
+      version: 0.4.0
+    - condition: tl500-teamsters.enabled
+      name: tl500-teamsters
+      repository: http://rht-labs.com/tl500-teamsters
+      version: 0.0.3
+    description: A Helm chart for Kubernetes
+    digest: 264f28bf7cfe65b6dff5732cf0a6af58aec9606facd713e3e0c0390fab236e19
+    maintainers:
+    - name: eformat
+    - name: tylerauerbeck
+    - name: jacobsee
+    - name: jtudelag
+    - name: ckavili
+    - name: springdo
+    name: tl500-base
+    type: application
+    urls:
+    - https://rht-labs.com/enablement-framework/tl500-base-0.0.1.tgz
+    version: 0.0.1
   tl500-course-content:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.195551729Z"
+    created: "2022-08-08T12:35:18.624338489Z"
     description: A Helm chart for Kubernetes
     digest: 9378ce9784d2bcf5c1311f795d33b488dacd422472ce435f7614a32aaf140374
     maintainers:
@@ -196,11 +230,11 @@ entries:
     name: tl500-course-content
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.5.tgz
+    - https://rht-labs.com/enablement-framework/tl500-course-content-v3.1.5.tgz
     version: v3.1.5
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.194549321Z"
+    created: "2022-08-08T12:35:18.623854881Z"
     description: A Helm chart for Kubernetes
     digest: 2d35a29ab3b7e06672628e583c85c5011c58cbdb6822d7f89ccbb64dd3b82d19
     maintainers:
@@ -212,11 +246,11 @@ entries:
     name: tl500-course-content
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.4.tgz
+    - https://rht-labs.com/enablement-framework/tl500-course-content-v3.1.4.tgz
     version: v3.1.4
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.193610714Z"
+    created: "2022-08-08T12:35:18.623331471Z"
     description: A Helm chart for Kubernetes
     digest: 3be149aa71279c747e2ad62701b57eaf6bfdb90f61a4903e0aff99c1abad1e41
     maintainers:
@@ -228,11 +262,11 @@ entries:
     name: tl500-course-content
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.3.tgz
+    - https://rht-labs.com/enablement-framework/tl500-course-content-v3.1.3.tgz
     version: v3.1.3
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.192789607Z"
+    created: "2022-08-08T12:35:18.622900063Z"
     description: A Helm chart for Kubernetes
     digest: f12d9ab1da69d753d444daf0845b03cb9d122e24129ee02260e836f6331a5e2b
     maintainers:
@@ -244,11 +278,11 @@ entries:
     name: tl500-course-content
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.2.tgz
+    - https://rht-labs.com/enablement-framework/tl500-course-content-v3.1.2.tgz
     version: v3.1.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.191098394Z"
+    created: "2022-08-08T12:35:18.622465356Z"
     description: A Helm chart for Kubernetes
     digest: 9fad9da65ad72bbb25898b27db5869941da4b749a6dd297cf284c494f92187f1
     maintainers:
@@ -260,11 +294,11 @@ entries:
     name: tl500-course-content
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.1.tgz
+    - https://rht-labs.com/enablement-framework/tl500-course-content-v3.1.1.tgz
     version: v3.1.1
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-03-07T11:15:19.190119586Z"
+    created: "2022-08-08T12:35:18.622040348Z"
     description: A Helm chart for Kubernetes
     digest: 95d996b52fcc4b55d6d83607c6b5c7f6c4d3f4d8a0592de21b8a820f4315aa1d
     maintainers:
@@ -276,6 +310,23 @@ entries:
     name: tl500-course-content
     type: application
     urls:
-    - https://jfilipcz.github.io/enablement-framework/tl500-course-content-v3.1.0.tgz
+    - https://rht-labs.com/enablement-framework/tl500-course-content-v3.1.0.tgz
     version: v3.1.0
-generated: "2022-03-07T11:15:19.125713675Z"
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-08-08T12:35:18.62161124Z"
+    description: A Helm chart for Kubernetes
+    digest: 445519fcb689547e58c824244e0a6206bff57cedd7a10b760a83493f16773e5b
+    maintainers:
+    - name: eformat
+    - name: jacobsee
+    - name: jtudelag
+    - name: ckavili
+    - name: springdo
+    - name: jfilipcz
+    name: tl500-course-content
+    type: application
+    urls:
+    - https://rht-labs.com/enablement-framework/tl500-course-content-0.0.7.tgz
+    version: 0.0.7
+generated: "2022-08-08T12:35:18.588893648Z"
