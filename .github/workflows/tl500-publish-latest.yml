@@ -21,13 +21,15 @@ jobs:
         uses: mikefarah/yq@v4.9.6
         with:
           cmd: >
-            yq e -i '.version = latest' tooling/charts/tl500-base/Chart.yaml
+            yq e -i '.version = latest' tooling/charts/tl500-base/Chart.yaml;
+            yq e -i '.description = "${{ github.ref_name }}"' tooling/charts/tl500-base/Chart.yaml
 
       - name: Update release version for Helm Charts
         uses: mikefarah/yq@v4.9.6
         with:
           cmd: >
-            yq e -i '.version = latest' tooling/charts/tl500-course-content/Chart.yaml
+            yq e -i '.version = latest' tooling/charts/tl500-course-content/Chart.yaml;
+            yq e -i '.description = "${{ github.ref_name }}"' tooling/charts/tl500-course-content/Chart.yaml
 
       - name: Install Helm dependencies and Package Charts TL500-base
         run: |
