@@ -121,6 +121,7 @@ sealed-secrets:
   commandArgs:
     - "--update-status=true"
 
+
 userworkloadmonitoring: true
 
 stackrox-chart:
